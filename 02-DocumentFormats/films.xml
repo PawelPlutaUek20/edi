@@ -1,0 +1,46 @@
+<films>
+	<!-- pay attention to the international characters:
+	  1/ use the "encoding" attribute with "utf-8" value
+	  2/ save an xml file in utf-8 format
+	-->
+	<film>
+		<title>Skazani na Shawshank</title>
+		<genre>Dramat</genre>
+		<year>1994</year>
+		<personal_rating>10</personal_rating>
+		<director>Frank Darabont</director>
+		<actors>Tim Robbins</actors>
+	</film>
+	<film>
+		<title>Nietykalni</title>
+		<genre>Biograficzny</genre>
+		<year>2011</year>
+		<personal_rating>9</personal_rating>
+		<director>Olivier Nakache</director>
+		<actors>Francois Cluzet</actors>
+	</film>
+	<film>
+		<title>Zielona mila</title>
+		<genre>Dramat</genre>
+		<year>1999</year>
+		<personal_rating>9</personal_rating>
+		<director>Frank Darabont</director>
+		<actors>Tom Hanks</actors>
+	</film>
+	<film>
+		<title>Ojciec chrzestny</title>
+		<genre>Gangsterski</genre>
+		<year>1972</year>
+		<personal_rating>10</personal_rating>
+		<director>Francis Ford Coppola</director>
+		<actors>Marlon Brando</actors>
+	</film>
+	<film>
+		<title>Dwunastu gniewnych ludzi</title>
+		<genre>Dramat sadowy</genre>
+		<year>1957</year>
+		<personal_rating>8</personal_rating>
+		<director>Sidney Lumet</director>
+		<actors>Martin Balsam</actors>
+	</film>
+</films>

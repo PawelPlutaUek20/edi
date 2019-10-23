@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan-zajec typ="G" id="140331" nazwa="WZISS1-1112" od="2019-10-23" do="2019-11-06">
+    <okres od="2019-10-23" do="2019-11-06" nazwa="2019-10-23 do 2019-11-06" wybrany="tak"/>
+    <okres od="2019-09-18" do="2020-02-20" nazwa="2019-09-18 do 2020-02-20"/>
+    <okres od="2019-09-17" do="2020-09-30" nazwa="2019-09-17 do 2020-09-30"/>
+    <okres od="2018-09-29" do="2019-09-30" nazwa="2018-09-29 do 2019-09-30"/>
+    <zajecia>
+        <termin>2019-10-23</termin>
+        <dzien>Śr</dzien>
+        <od-godz>08:00</od-godz>
+        <do-godz>09:30 (2g.)</do-godz>
+        <przedmiot>Wprowadzenie do matematyki</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-540">dr Jakub Bielawski</nauczyciel>
+        <sala>Paw.F 107</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-23</termin>
+        <dzien>Śr</dzien>
+        <od-godz>09:45</od-godz>
+        <do-godz>11:15 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-23</termin>
+        <dzien>Śr</dzien>
+        <od-godz>11:30</od-godz>
+        <do-godz>13:00 (2g.)</do-godz>
+        <przedmiot>Elektroniczna wymiana danych</przedmiot>
+        <typ>wykład</typ>
+        <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+        <sala>Paw.C sala B</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-23</termin>
+        <dzien>Śr</dzien>
+        <od-godz>15:00</od-godz>
+        <do-godz>16:30 (2g.)</do-godz>
+        <przedmiot>Elektroniczna wymiana danych</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+        <sala>Paw.A 115 lab. Win8, Office16</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-24</termin>
+        <dzien>Cz</dzien>
+        <od-godz>11:30</od-godz>
+        <do-godz>13:00 (2g.)</do-godz>
+        <przedmiot>Wprowadzenie do matematyki</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-540">dr Jakub Bielawski</nauczyciel>
+        <sala>Paw.S sala 3</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-24</termin>
+        <dzien>Cz</dzien>
+        <od-godz>15:00</od-godz>
+        <do-godz>16:30 (2g.)</do-godz>
+        <przedmiot>Architektura systemów komputerowych</przedmiot>
+        <typ>wykład</typ>
+        <nauczyciel moodle="-891">dr Jan Madej</nauczyciel>
+        <sala>Paw.F 106</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-24</termin>
+        <dzien>Cz</dzien>
+        <od-godz>16:45</od-godz>
+        <do-godz>18:15 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-25</termin>
+        <dzien>Pt</dzien>
+        <od-godz>08:00</od-godz>
+        <do-godz>09:30 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-25</termin>
+        <dzien>Pt</dzien>
+        <od-godz>13:15</od-godz>
+        <do-godz>14:45 (2g.)</do-godz>
+        <przedmiot>Organizacja i zarządzanie</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-928">dr Bernard Bińczycki</nauczyciel>
+        <sala>Paw.B 151</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-28</termin>
+        <dzien>Pn</dzien>
+        <od-godz>08:00</od-godz>
+        <do-godz>09:30 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-28</termin>
+        <dzien>Pn</dzien>
+        <od-godz>13:15</od-godz>
+        <do-godz>14:45 (2g.)</do-godz>
+        <przedmiot>Pracownia programowania I</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+        <sala>Paw.A 115 lab. Win8, Office16</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-28</termin>
+        <dzien>Pn</dzien>
+        <od-godz>15:00</od-godz>
+        <do-godz>16:30 (2g.)</do-godz>
+        <przedmiot>Teoretyczne podstawy informatyki</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-1043">mgr Katarzyna Wójcik</nauczyciel>
+        <sala>Paw.A 301a lab.Win10, Office16</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-28</termin>
+        <dzien>Pn</dzien>
+        <od-godz>16:45</od-godz>
+        <do-godz>18:15 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-29</termin>
+        <dzien>Wt</dzien>
+        <od-godz>13:15</od-godz>
+        <do-godz>14:45 (2g.)</do-godz>
+        <przedmiot>Teoretyczne podstawy informatyki</przedmiot>
+        <typ>wykład</typ>
+        <nauczyciel moodle="-892">dr hab. inż. Janusz Morajda</nauczyciel>
+        <sala>Paw.S sala 7</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-29</termin>
+        <dzien>Wt</dzien>
+        <od-godz>16:45</od-godz>
+        <do-godz>18:15 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-30</termin>
+        <dzien>Śr</dzien>
+        <od-godz>08:00</od-godz>
+        <do-godz>09:30 (2g.)</do-godz>
+        <przedmiot>Wprowadzenie do matematyki</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-540">dr Jakub Bielawski</nauczyciel>
+        <sala>Paw.F 107</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-30</termin>
+        <dzien>Śr</dzien>
+        <od-godz>09:45</od-godz>
+        <do-godz>11:15 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-30</termin>
+        <dzien>Śr</dzien>
+        <od-godz>11:30</od-godz>
+        <do-godz>13:00 (2g.)</do-godz>
+        <przedmiot>Organizacja i zarządzanie</przedmiot>
+        <typ>wykład</typ>
+        <nauczyciel moodle="-928">dr Bernard Bińczycki</nauczyciel>
+        <sala>Paw.C sala B</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-30</termin>
+        <dzien>Śr</dzien>
+        <od-godz>13:15</od-godz>
+        <do-godz>14:45 (2g.)</do-godz>
+        <przedmiot>Organizacja i zarządzanie</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-928">dr Bernard Bińczycki</nauczyciel>
+        <sala>Paw.B 152</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-30</termin>
+        <dzien>Śr</dzien>
+        <od-godz>15:00</od-godz>
+        <do-godz>16:30 (2g.)</do-godz>
+        <przedmiot>Architektura systemów komputerowych</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-891">dr Jan Madej</nauczyciel>
+        <sala>Paw.A 013 lab. Vista,Office10</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-31</termin>
+        <dzien>Cz</dzien>
+        <od-godz>11:30</od-godz>
+        <do-godz>13:00 (2g.)</do-godz>
+        <przedmiot>Wprowadzenie do matematyki</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-540">dr Jakub Bielawski</nauczyciel>
+        <sala>Paw.S sala 3</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-31</termin>
+        <dzien>Cz</dzien>
+        <od-godz>15:00</od-godz>
+        <do-godz>16:30 (2g.)</do-godz>
+        <przedmiot>Architektura systemów komputerowych</przedmiot>
+        <typ>wykład</typ>
+        <nauczyciel moodle="-891">dr Jan Madej</nauczyciel>
+        <sala>Paw.F 106</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-10-31</termin>
+        <dzien>Cz</dzien>
+        <od-godz>16:45</od-godz>
+        <do-godz>18:15 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-11-04</termin>
+        <dzien>Pn</dzien>
+        <od-godz>08:00</od-godz>
+        <do-godz>09:30 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-11-04</termin>
+        <dzien>Pn</dzien>
+        <od-godz>13:15</od-godz>
+        <do-godz>14:45 (2g.)</do-godz>
+        <przedmiot>Pracownia programowania I</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+        <sala>Paw.A 115 lab. Win8, Office16</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-11-04</termin>
+        <dzien>Pn</dzien>
+        <od-godz>15:00</od-godz>
+        <do-godz>16:30 (2g.)</do-godz>
+        <przedmiot>Teoretyczne podstawy informatyki</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-1043">mgr Katarzyna Wójcik</nauczyciel>
+        <sala>Paw.A 301a lab.Win10, Office16</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-11-04</termin>
+        <dzien>Pn</dzien>
+        <od-godz>16:45</od-godz>
+        <do-godz>18:15 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-11-05</termin>
+        <dzien>Wt</dzien>
+        <od-godz>16:45</od-godz>
+        <do-godz>18:15 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-11-06</termin>
+        <dzien>Śr</dzien>
+        <od-godz>08:00</od-godz>
+        <do-godz>09:30 (2g.)</do-godz>
+        <przedmiot>Wprowadzenie do matematyki</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-540">dr Jakub Bielawski</nauczyciel>
+        <sala>Paw.F 107</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-11-06</termin>
+        <dzien>Śr</dzien>
+        <od-godz>09:45</od-godz>
+        <do-godz>11:15 (2g.)</do-godz>
+        <przedmiot>Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel></nauczyciel>
+        <sala></sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-11-06</termin>
+        <dzien>Śr</dzien>
+        <od-godz>11:30</od-godz>
+        <do-godz>13:00 (2g.)</do-godz>
+        <przedmiot>Elektroniczna wymiana danych</przedmiot>
+        <typ>wykład</typ>
+        <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+        <sala>Paw.C sala B</sala>
+    </zajecia>
+    <zajecia>
+        <termin>2019-11-06</termin>
+        <dzien>Śr</dzien>
+        <od-godz>15:00</od-godz>
+        <do-godz>16:30 (2g.)</do-godz>
+        <przedmiot>Elektroniczna wymiana danych</przedmiot>
+        <typ>ćwiczenia</typ>
+        <nauczyciel moodle="-218">dr Janusz Stal</nauczyciel>
+        <sala>Paw.A 115 lab. Win8, Office16</sala>
+    </zajecia>
+</plan-zajec>

@@ -1,0 +1,414 @@
+﻿{
+	"plan-zajec": {
+		"okres": [
+			{
+				"_od": "2019-10-23",
+				"_do": "2019-11-06",
+				"_nazwa": "2019-10-23 do 2019-11-06",
+				"_wybrany": "tak"
+			},
+			{
+				"_od": "2019-09-18",
+				"_do": "2020-02-20",
+				"_nazwa": "2019-09-18 do 2020-02-20"
+			},
+			{
+				"_od": "2019-09-17",
+				"_do": "2020-09-30",
+				"_nazwa": "2019-09-17 do 2020-09-30"
+			},
+			{
+				"_od": "2018-09-29",
+				"_do": "2019-09-30",
+				"_nazwa": "2018-09-29 do 2019-09-30"
+			}
+		],
+		"zajecia": [
+			{
+				"termin": "2019-10-23",
+				"dzien": "Śr",
+				"od-godz": "08:00",
+				"do-godz": "09:30 (2g.)",
+				"przedmiot": "Wprowadzenie do matematyki",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-540",
+					"__text": "dr Jakub Bielawski"
+				},
+				"sala": "Paw.F 107"
+			},
+			{
+				"termin": "2019-10-23",
+				"dzien": "Śr",
+				"od-godz": "09:45",
+				"do-godz": "11:15 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-10-23",
+				"dzien": "Śr",
+				"od-godz": "11:30",
+				"do-godz": "13:00 (2g.)",
+				"przedmiot": "Elektroniczna wymiana danych",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.C sala B"
+			},
+			{
+				"termin": "2019-10-23",
+				"dzien": "Śr",
+				"od-godz": "15:00",
+				"do-godz": "16:30 (2g.)",
+				"przedmiot": "Elektroniczna wymiana danych",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.A 115 lab. Win8, Office16"
+			},
+			{
+				"termin": "2019-10-24",
+				"dzien": "Cz",
+				"od-godz": "11:30",
+				"do-godz": "13:00 (2g.)",
+				"przedmiot": "Wprowadzenie do matematyki",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-540",
+					"__text": "dr Jakub Bielawski"
+				},
+				"sala": "Paw.S sala 3"
+			},
+			{
+				"termin": "2019-10-24",
+				"dzien": "Cz",
+				"od-godz": "15:00",
+				"do-godz": "16:30 (2g.)",
+				"przedmiot": "Architektura systemów komputerowych",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-891",
+					"__text": "dr Jan Madej"
+				},
+				"sala": "Paw.F 106"
+			},
+			{
+				"termin": "2019-10-24",
+				"dzien": "Cz",
+				"od-godz": "16:45",
+				"do-godz": "18:15 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-10-25",
+				"dzien": "Pt",
+				"od-godz": "08:00",
+				"do-godz": "09:30 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-10-25",
+				"dzien": "Pt",
+				"od-godz": "13:15",
+				"do-godz": "14:45 (2g.)",
+				"przedmiot": "Organizacja i zarządzanie",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-928",
+					"__text": "dr Bernard Bińczycki"
+				},
+				"sala": "Paw.B 151"
+			},
+			{
+				"termin": "2019-10-28",
+				"dzien": "Pn",
+				"od-godz": "08:00",
+				"do-godz": "09:30 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-10-28",
+				"dzien": "Pn",
+				"od-godz": "13:15",
+				"do-godz": "14:45 (2g.)",
+				"przedmiot": "Pracownia programowania I",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.A 115 lab. Win8, Office16"
+			},
+			{
+				"termin": "2019-10-28",
+				"dzien": "Pn",
+				"od-godz": "15:00",
+				"do-godz": "16:30 (2g.)",
+				"przedmiot": "Teoretyczne podstawy informatyki",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-1043",
+					"__text": "mgr Katarzyna Wójcik"
+				},
+				"sala": "Paw.A 301a lab.Win10, Office16"
+			},
+			{
+				"termin": "2019-10-28",
+				"dzien": "Pn",
+				"od-godz": "16:45",
+				"do-godz": "18:15 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-10-29",
+				"dzien": "Wt",
+				"od-godz": "13:15",
+				"do-godz": "14:45 (2g.)",
+				"przedmiot": "Teoretyczne podstawy informatyki",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-892",
+					"__text": "dr hab. inż. Janusz Morajda"
+				},
+				"sala": "Paw.S sala 7"
+			},
+			{
+				"termin": "2019-10-29",
+				"dzien": "Wt",
+				"od-godz": "16:45",
+				"do-godz": "18:15 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-10-30",
+				"dzien": "Śr",
+				"od-godz": "08:00",
+				"do-godz": "09:30 (2g.)",
+				"przedmiot": "Wprowadzenie do matematyki",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-540",
+					"__text": "dr Jakub Bielawski"
+				},
+				"sala": "Paw.F 107"
+			},
+			{
+				"termin": "2019-10-30",
+				"dzien": "Śr",
+				"od-godz": "09:45",
+				"do-godz": "11:15 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-10-30",
+				"dzien": "Śr",
+				"od-godz": "11:30",
+				"do-godz": "13:00 (2g.)",
+				"przedmiot": "Organizacja i zarządzanie",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-928",
+					"__text": "dr Bernard Bińczycki"
+				},
+				"sala": "Paw.C sala B"
+			},
+			{
+				"termin": "2019-10-30",
+				"dzien": "Śr",
+				"od-godz": "13:15",
+				"do-godz": "14:45 (2g.)",
+				"przedmiot": "Organizacja i zarządzanie",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-928",
+					"__text": "dr Bernard Bińczycki"
+				},
+				"sala": "Paw.B 152"
+			},
+			{
+				"termin": "2019-10-30",
+				"dzien": "Śr",
+				"od-godz": "15:00",
+				"do-godz": "16:30 (2g.)",
+				"przedmiot": "Architektura systemów komputerowych",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-891",
+					"__text": "dr Jan Madej"
+				},
+				"sala": "Paw.A 013 lab. Vista,Office10"
+			},
+			{
+				"termin": "2019-10-31",
+				"dzien": "Cz",
+				"od-godz": "11:30",
+				"do-godz": "13:00 (2g.)",
+				"przedmiot": "Wprowadzenie do matematyki",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-540",
+					"__text": "dr Jakub Bielawski"
+				},
+				"sala": "Paw.S sala 3"
+			},
+			{
+				"termin": "2019-10-31",
+				"dzien": "Cz",
+				"od-godz": "15:00",
+				"do-godz": "16:30 (2g.)",
+				"przedmiot": "Architektura systemów komputerowych",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-891",
+					"__text": "dr Jan Madej"
+				},
+				"sala": "Paw.F 106"
+			},
+			{
+				"termin": "2019-10-31",
+				"dzien": "Cz",
+				"od-godz": "16:45",
+				"do-godz": "18:15 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-11-04",
+				"dzien": "Pn",
+				"od-godz": "08:00",
+				"do-godz": "09:30 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-11-04",
+				"dzien": "Pn",
+				"od-godz": "13:15",
+				"do-godz": "14:45 (2g.)",
+				"przedmiot": "Pracownia programowania I",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.A 115 lab. Win8, Office16"
+			},
+			{
+				"termin": "2019-11-04",
+				"dzien": "Pn",
+				"od-godz": "15:00",
+				"do-godz": "16:30 (2g.)",
+				"przedmiot": "Teoretyczne podstawy informatyki",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-1043",
+					"__text": "mgr Katarzyna Wójcik"
+				},
+				"sala": "Paw.A 301a lab.Win10, Office16"
+			},
+			{
+				"termin": "2019-11-04",
+				"dzien": "Pn",
+				"od-godz": "16:45",
+				"do-godz": "18:15 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-11-05",
+				"dzien": "Wt",
+				"od-godz": "16:45",
+				"do-godz": "18:15 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-11-06",
+				"dzien": "Śr",
+				"od-godz": "08:00",
+				"do-godz": "09:30 (2g.)",
+				"przedmiot": "Wprowadzenie do matematyki",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-540",
+					"__text": "dr Jakub Bielawski"
+				},
+				"sala": "Paw.F 107"
+			},
+			{
+				"termin": "2019-11-06",
+				"dzien": "Śr",
+				"od-godz": "09:45",
+				"do-godz": "11:15 (2g.)",
+				"przedmiot": "Język obcy 2.1 (studia stacjonarne) - grupa przedmiotów",
+				"typ": "ćwiczenia",
+				"nauczyciel": "",
+				"sala": ""
+			},
+			{
+				"termin": "2019-11-06",
+				"dzien": "Śr",
+				"od-godz": "11:30",
+				"do-godz": "13:00 (2g.)",
+				"przedmiot": "Elektroniczna wymiana danych",
+				"typ": "wykład",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.C sala B"
+			},
+			{
+				"termin": "2019-11-06",
+				"dzien": "Śr",
+				"od-godz": "15:00",
+				"do-godz": "16:30 (2g.)",
+				"przedmiot": "Elektroniczna wymiana danych",
+				"typ": "ćwiczenia",
+				"nauczyciel": {
+					"_moodle": "-218",
+					"__text": "dr Janusz Stal"
+				},
+				"sala": "Paw.A 115 lab. Win8, Office16"
+			}
+		],
+		"_typ": "G",
+		"_id": "140331",
+		"_nazwa": "WZISS1-1112",
+		"_od": "2019-10-23",
+		"_do": "2019-11-06"
+	}
+}
