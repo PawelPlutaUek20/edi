@@ -1,33 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html ondblclick="changeColor()">
 	<head>
 		<title>Pink Floyd</title>
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<h1 onclick="drugaczesc(this)">Another Brick in the Wall</h1>
-		<h3>Pink Floyd</h3>
-		<p>We don't need no education<br>
+		<h1 id="title" onclick="songTitle()">Another Brick in the Wall</h1>
+		<h3 onclick="band()">Pink Floyd</h3>
+		<p onclick="letterToItalics(this)" oncopy="copyrightAlert()">We don't need no education<br>
 		We don't need no thought control<br>
 		No dark sarcasm in the classroom<br>
 		Teachers leave them kids alone<br>
 		Hey! Teachers! Leave them kids alone<br>
 		All in all it's just another brick in the wall<br>
-		All in all you're just another brick in the wall<br><br></p>
+		All in all you're just another brick in the wall</p>
 		
-		<p style="visibility: hidden;">Pink Floyd were an English rock band formed in London.<br>
+		<p style="visibility: hidden;" onclick = "bandImg()">Pink Floyd were an English rock band formed in London.<br>
 		They achieved international acclaim with their progressive<br>
 		and psychedelic music.</p>
 		
 		<script>
 			
-			function drugaczesc(x) {
-				
-				document.getElementsByTagName("p")[0].innerHTML += document.getElementsByTagName("p")[1].innerHTML;
+			var titlePart2 = false
+			function songTitle() {
+				if (titlePart2 == false) {
+					document.getElementById("title").innerHTML += " (Part2)";
+					titlePart2 = true
+				}
 			}
 
+			var description = false
+			function band() {
+				if (description == false) {
+				document.getElementsByTagName("p")[1].removeAttribute("style")
+				description = true
+				}
+			}
 			
-			
+			var italics = false
+			function letterToItalics(a) {
+				if (italics == false) {
+					a.innerHTML = a.innerHTML.italics()
+					italics = true
+				}
+			}
+
+			var pagecolor = false
+			function changeColor(color) { 
+                if (pagecolor == false) {
+					document.body.style.background = "yellow";
+					pagecolor = true
+				}
+				else if (pagecolor == true) {
+					document.body.style.background = "white";
+					pagecolor = false
+				}
+            } 
+
+			function copyrightAlert() {
+				alert("Copyright warning")
+			}
+
+			showImage = false
+			function bandImg() {
+				if (showImage == false && description == true) {
+					var space = document.querySelector("body")
+					var bandImg = document.createElement("Img")
+					bandImg.setAttribute("src", "https://upload.wikimedia.org/wikipedia/en/d/d6/Pink_Floyd_-_all_members.jpg")
+					space.appendChild(bandImg)
+					showImage = true
+				}
+
+			}
 		</script>
 	</body>
 </html>
