@@ -6,7 +6,31 @@
 	</head>
 	<body>
 		<h1>Create mobile phone</h1>
+		<button type="button" onclick="mobilePhone();">Display my phone specs</button>
 		<script>
+			function mobilePhone() {
+
+				phoneSpecs = {
+					color : "Black",
+					loudspeaker : true,
+					ram : 4,
+					camera : {
+						Main: 12, 
+						Selfie: 5, 
+						Features: "Dual-LED dual-tone flash"
+					},
+					resolutions : ["2160p@30fps", "1080p@60fps", "720p@120fps"]
+				}	
+				alert(	"Color: " + phoneSpecs.color +
+						"\nLoudspeaker: " + phoneSpecs.loudspeaker +
+						"\nRam: " + phoneSpecs.ram + " GB" +
+						"\nMain Camera: " + phoneSpecs.camera.Main + " MP" +
+						"\nSelfie Camera: " + phoneSpecs.camera.Selfie + " MP" +
+						"\nCamera Features: " + phoneSpecs.camera.Features +
+						"\nResolutions: " + phoneSpecs.resolutions[0] + ", " + phoneSpecs.resolutions[1] + ", " + phoneSpecs.resolutions[2]
+
+				)
+			}
 		</script>
 	</body>
 </html>

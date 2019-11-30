@@ -12,6 +12,8 @@
 		<script>
 			function createSpeech() {
 				//each array consists of 10 elements
+
+				i = n()
 				var first = [	'Koleżanki i koledzy,', 'Z drugiej strony', 'Podobnie', 'Nie zapominajmy jednak, że',
 								'W ten sposób', 'Praktyka dnia codziennego dowodzi, że',
 								'Wagi i znaczenia tych problemów nie trzeba szerzej uzasadniać, ponieważ',
@@ -38,15 +40,18 @@
 							];
 				
 				// complete a JavaScript code here ...
+				console.log(first[i] + " " + second[i] + " " + third[i] + " " + fourth[i]);
 				// ...
-				
+
 			}
 
 			// returns random integer from 0 to 9
 			function n() {
+				x = Math.floor(Math.random() * 10);
+				return x
 				// ...
 			}
-			
+
 		</script>
 	</body>
 </html>
