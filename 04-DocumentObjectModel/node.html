@@ -7,7 +7,30 @@
 	<body>
 		<script>
 			// a JavaScript code here ...
-			
+			function tableCreate() {
+				var x = 1
+				var body = document.getElementsByTagName('body')[0];
+				var tbl = document.createElement('table');
+				var tblBody = document.createElement("tbody");
+				for (i = 0; i < 2; i++) {
+					var row = document.createElement("tr");
+					for (var j = 0; j < 2; j++) {
+						var cell = document.createElement("td");
+						cell.setAttribute("align", "center")
+						var cellText = document.createTextNode(x);
+						x++;
+      					cell.appendChild(cellText);
+      					row.appendChild(cell);
+					}
+					tblBody.appendChild(row);
+				}
+				tbl.appendChild(tblBody);
+				body.appendChild(tbl);
+				tbl.style.width = '300px';
+				tbl.setAttribute("cellspacing", "0");
+				tbl.setAttribute("border", "1");
+			}
+			tableCreate();
 		</script>
 	</body>
 </html>
