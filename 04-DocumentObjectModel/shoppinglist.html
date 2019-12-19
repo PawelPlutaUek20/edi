@@ -13,7 +13,7 @@
         <button type="button" onclick ="write_list()">Add</button>
     </p>
     <h3>List of items</h3>
-    <ol>
+    <ol ondblclick="delete_list()">
         <li>cooking oil</li>
         <li>breakfast cereal</li>
         <li>bread</li>
@@ -29,7 +29,11 @@
                 shoppingList.appendChild(newItem)
             }
         }
-
+        function delete_list() {
+            let itemList = document.querySelector("ol")
+            let li = event.target
+            itemList.removeChild(li)
+        }
     </script>
 </body>
 
