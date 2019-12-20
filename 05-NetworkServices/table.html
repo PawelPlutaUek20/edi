@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="http://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="http://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#myTable').DataTable();
+        } );
+    </script>
+</head>
+
+<body>
+    <table id="myTable" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Surname</th>
+                <th>Age</th>
+                <th>Country</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+    </table>
+
+    <script>
+        var done = false
+
+        function connect(){
+            var method = 'GET';
+            var URL = 'people.json';
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function(){display(this);};
+            xhr.open(method, URL);
+            xhr.send();
+        }
+        function display(r){
+            if (r.readyState==4 && r.status==200){
+                var data = r.responseText;
+                var jsonResponse = JSON.parse(data);
+                var tbl = document.getElementById("myTable");
+                var tblBody = document.createElement("tbody");
+                for (i = 0; i < jsonResponse.length; i++) {
+                    var row = document.createElement("tr");
+                    var p_data = ["name", "surname", "age", "country", "email"]
+                    for (var j = 0; j < p_data.length; j++) {
+                        var cell = document.createElement("td");
+                        var name = document.createTextNode(jsonResponse[i][p_data[j]]);
+                        cell.appendChild(name);
+                        row.appendChild(cell);
+                    };
+                    tblBody.appendChild(row);
+                };
+                tbl.appendChild(tblBody);
+            };
+        };
+        connect();
+    </script>
+</body>
+</html>

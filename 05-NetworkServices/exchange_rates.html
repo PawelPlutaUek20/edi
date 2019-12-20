@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Ready States</title>
+		<title>Exchang Rates</title>
 		<meta charset="UTF-8">
 	</head>
 	<body>
@@ -10,7 +10,6 @@
         <p></p>
 		
 		<script>
-
 			function connect(){
 				var method = 'GET';
 				var URL = 'http://api.nbp.pl/api/exchangerates/tables/A/?format=json';
@@ -26,9 +25,8 @@
                     if (r.readyState==4 && r.status==200){
                         var data=r.responseText;
                         var jsonResponse = JSON.parse(data);
-                        for (i = 0; i < jsonResponse[0]["rates"]["length"]; i += 1) {
+                        for (i = 0; i < jsonResponse[0]["rates"].length; i += 1) {
                             if (jsonResponse[0]["rates"][i]["code"] == "GBP" || jsonResponse[0]["rates"][i]["code"] == "EUR" || jsonResponse[0]["rates"][i]["code"] == "USD") {
-                                console.log(jsonResponse[0]["rates"][i]["code"] + ": " + jsonResponse[0]["rates"][i]["mid"])
                                 document.getElementsByTagName("p")[0].innerHTML += jsonResponse[0]["rates"][i]["code"] + ": " + jsonResponse[0]["rates"][i]["mid"] + "<br>"
                             }
                         };
