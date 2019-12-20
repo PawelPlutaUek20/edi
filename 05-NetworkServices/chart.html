@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,76 +9,78 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <title>My Chart.js Chart</title>
 </head>
+
 <body>
   <div class="container">
     <canvas id="myChart"></canvas>
   </div>
   <script>
-    function connect(){
-        var method = 'GET';
-        var URL = 'http://api.nbp.pl/api/cenyzlota/last/10?format=JSON';
-        var xhr = new XMLHttpRequest();
-        xhr.onreadystatechange = function(){display(this);};
-        xhr.open(method, URL);
-        xhr.send();
+    function connect() {
+      var method = 'GET';
+      var URL = 'http://api.nbp.pl/api/cenyzlota/last/10?format=JSON';
+      var xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function () { display(this); };
+      xhr.open(method, URL);
+      xhr.send();
     }
-    function display(r){
-        if (r.readyState==4 && r.status==200){
-            var data=r.responseText;
-            var jsonResponse = JSON.parse(data);
-            var tab = []
-            var tab2 = []
-            for (i = 0;i < jsonResponse.length; i++ ) {
-                tab.push(jsonResponse[i]["data"]);
-                tab2.push(jsonResponse[i]["cena"]);
-            }
-            let myChart = document.getElementById('myChart').getContext('2d');
-            // Global Options
-            Chart.defaults.global.defaultFontFamily = 'Lato';
-            Chart.defaults.global.defaultFontSize = 18;
-            Chart.defaults.global.defaultFontColor = '#777';
-            let massPopChart = new Chart(myChart, {
-            type:'line', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
-            data:{
-                labels: tab,
-                datasets:[{
-                label:'Cena Złota',
-                data: tab2,
-                //backgroundColor:'green',
-                backgroundColor:['rgba(255, 99, 132, 0.6)'],
-                borderWidth:1,
-                borderColor:'#777',
-                }]
+    function display(r) {
+      if (r.readyState == 4 && r.status == 200) {
+        var data = r.responseText;
+        var jsonResponse = JSON.parse(data);
+        var tab = []
+        var tab2 = []
+        for (i = 0; i < jsonResponse.length; i++) {
+          tab.push(jsonResponse[i]["data"]);
+          tab2.push(jsonResponse[i]["cena"]);
+        }
+        let myChart = document.getElementById('myChart').getContext('2d');
+        // Global Options
+        Chart.defaults.global.defaultFontFamily = 'Lato';
+        Chart.defaults.global.defaultFontSize = 18;
+        Chart.defaults.global.defaultFontColor = '#777';
+        let massPopChart = new Chart(myChart, {
+          type: 'line', // bar, horizontalBar, pie, line, doughnut, radar, polarArea
+          data: {
+            labels: tab,
+            datasets: [{
+              label: 'Cena Złota',
+              data: tab2,
+              //backgroundColor:'green',
+              backgroundColor: ['rgba(255, 99, 132, 0.6)'],
+              borderWidth: 1,
+              borderColor: '#777',
+            }]
+          },
+          options: {
+            title: {
+              display: true,
+              text: 'Cena złota z ostatnich 10 dni',
+              fontSize: 25
             },
-            options:{
-                title:{
-                display:true,
-                text:'Cena złota z ostatnich 10 dni',
-                fontSize:25
-                },
-                legend:{
-                display:true,
-                position:'right',
-                labels:{
-                    fontColor:'#000'
-                }
-                },
-                layout:{
-                padding:{
-                    left:50,
-                    right:0,
-                    bottom:0,
-                    top:0
-                }
-                },
-                tooltips:{
-                enabled:true
-                }
+            legend: {
+              display: true,
+              position: 'right',
+              labels: {
+                fontColor: '#000'
+              }
+            },
+            layout: {
+              padding: {
+                left: 50,
+                right: 0,
+                bottom: 0,
+                top: 0
+              }
+            },
+            tooltips: {
+              enabled: true
             }
-            });
-        };
+          }
+        });
+      };
     };
     connect()
   </script>
 </body>
+
 </html>

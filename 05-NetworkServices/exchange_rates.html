@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Exchang Rates</title>
-		<meta charset="UTF-8">
-	</head>
-	<body>
-		<h1>Exchange rates</h1>
-        <input type="button" value="Click here" onclick="connect()">
-        <p></p>
-		
-		<script>
-			function connect(){
-				var method = 'GET';
-				var URL = 'http://api.nbp.pl/api/exchangerates/tables/A/?format=json';
-				var xhr = new XMLHttpRequest();
-				xhr.onreadystatechange = function(){display(this);};
-				xhr.open(method, URL);
-				xhr.send();
-            }
-            
-            var done = false
-            function display(r){
-                if (done == false) {
-                    if (r.readyState==4 && r.status==200){
-                        var data=r.responseText;
-                        var jsonResponse = JSON.parse(data);
-                        for (i = 0; i < jsonResponse[0]["rates"].length; i += 1) {
-                            if (jsonResponse[0]["rates"][i]["code"] == "GBP" || jsonResponse[0]["rates"][i]["code"] == "EUR" || jsonResponse[0]["rates"][i]["code"] == "USD") {
-                                document.getElementsByTagName("p")[0].innerHTML += jsonResponse[0]["rates"][i]["code"] + ": " + jsonResponse[0]["rates"][i]["mid"] + "<br>"
-                            }
-                        };
-                        done = true
+
+<head>
+    <title>Exchang Rates</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Exchange rates</h1>
+    <input type="button" value="Click here" onclick="connect()">
+    <p></p>
+
+    <script>
+        function connect() {
+            var method = 'GET';
+            var URL = 'http://api.nbp.pl/api/exchangerates/tables/A/?format=json';
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () { display(this); };
+            xhr.open(method, URL);
+            xhr.send();
+        }
+
+        var done = false
+        function display(r) {
+            if (done == false) {
+                if (r.readyState == 4 && r.status == 200) {
+                    var data = r.responseText;
+                    var jsonResponse = JSON.parse(data);
+                    for (i = 0; i < jsonResponse[0]["rates"].length; i += 1) {
+                        if (jsonResponse[0]["rates"][i]["code"] == "GBP" || jsonResponse[0]["rates"][i]["code"] == "EUR" || jsonResponse[0]["rates"][i]["code"] == "USD") {
+                            document.getElementsByTagName("p")[0].innerHTML += jsonResponse[0]["rates"][i]["code"] + ": " + jsonResponse[0]["rates"][i]["mid"] + "<br>"
+                        }
                     };
+                    done = true
                 };
             };
-		</script>
+        };
+    </script>
 
-	</body>
+</body>
+
 </html>

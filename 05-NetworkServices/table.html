@@ -8,9 +8,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="http://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <script>
-        $(document).ready( function () {
+        $(document).ready(function () {
             $('#myTable').DataTable();
-        } );
+        });
     </script>
 </head>
 
@@ -30,16 +30,16 @@
     <script>
         var done = false
 
-        function connect(){
+        function connect() {
             var method = 'GET';
             var URL = 'people.json';
             var xhr = new XMLHttpRequest();
-            xhr.onreadystatechange = function(){display(this);};
+            xhr.onreadystatechange = function () { display(this); };
             xhr.open(method, URL);
             xhr.send();
         }
-        function display(r){
-            if (r.readyState==4 && r.status==200){
+        function display(r) {
+            if (r.readyState == 4 && r.status == 200) {
                 var data = r.responseText;
                 var jsonResponse = JSON.parse(data);
                 var tbl = document.getElementById("myTable");
@@ -61,4 +61,5 @@
         connect();
     </script>
 </body>
+
 </html>
